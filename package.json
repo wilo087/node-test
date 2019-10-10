@@ -1,5 +1,5 @@
 {
-  "name": "react-boilerplate",
+  "name": "Node_Test",
   "version": "1.0.0",
   "description": "React Boilerplate",
   "main": "src/server.js",
@@ -8,10 +8,11 @@
   "license": "MIT Wilowayne De La Cruz",
   "private": true,
   "scripts": {
-    "start": "yarn babel-node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-cache-response": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

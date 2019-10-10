@@ -1,7 +1,10 @@
 const express = require('express')
+const cache = require('express-cache-response');
 
 const app = express();
 const port = process.env.SERVER_PORT || 3000;
+
+app.use(cache());
 
 app.get('**', (req, res) => {
 
