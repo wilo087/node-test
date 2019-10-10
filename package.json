@@ -1,0 +1,20 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "React Boilerplate",
+  "main": "src/server.js",
+  "repository": "wdelacruz.com",
+  "author": "Wilowayne De La Cruz G. <wilo0087@gmail.com>",
+  "license": "MIT Wilowayne De La Cruz",
+  "private": true,
+  "scripts": {
+    "start": "yarn babel-node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2"
+  }
+}
